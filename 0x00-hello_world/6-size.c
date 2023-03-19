@@ -9,20 +9,20 @@
 
 int main(void)
 {
-	char = 1;
+	sizeof(char);
 
-	int = 4;
+	sizeof(int);
 
-	long int = 4;
+	sizeof(long int);
 
-	long long int = 8;
+	sizeof(long long int);
 
-	float = 4;
+	sizeof(float);
 
-	printf("Size of a char: %c bytes(s)\n"), char;
-	printf("Size of an int: %d byte(s)\n "), int;
-	printf("Size of a long int: %d byte(s)\n ", long int;
-	printf("Size of a long long int: %d byte(s)\n "), long long int;
-	printf("Size of a float: %f byte(s)\n"), float;
+	printf("Size of a char: %c bytes(s)\n", 'char');
+	printf("Size of an int: %d byte(s)\n "), 'int';
+	printf("Size of a long int: %d byte(s)\n ", 'long int');
+	printf("Size of a long long int: %d byte(s)\n ", 'long long int');
+	printf("Size of a float: %f byte(s)\n", 'float');
 	return (0);
 }
