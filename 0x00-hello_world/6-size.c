@@ -7,7 +7,7 @@
  * return: Always 0 (Success)
  */
 
-int function(char, int, long int, long long int, float);
+int main(char, int, long int, long long int, float);
 {
 	printf("Size of a char: %i byte(s)\n", sizeof(char));
 	printf("Size of an int: %i byte(s)\n", sizeof(int));
