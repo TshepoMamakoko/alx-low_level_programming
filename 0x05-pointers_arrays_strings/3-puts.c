@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * _putchar - the incrementation formular
  * _puts - function that prints a string
  * @str:- pointer to the string
  * Return: String and a new line
